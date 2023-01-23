@@ -1,0 +1,58 @@
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    height: max-content;
+    width: 300px;
+    align-content: right;
+    padding: 100px;
+    margin: auto;
+    color: white
+  }  
+  
+   form {   
+          border: 3px solid #f1f1f1;   
+      }   
+   input[type=text], input[type=password] {   
+          width: 100%;   
+          margin: 8px 0;  
+          padding: 12px 20px;   
+          display: inline-block;   
+          border: 2px solid grey;   
+          box-sizing: border-box;   
+      }  
+   button:hover {   
+          opacity: 0.7;   
+      }   
+    .cancelbtn {   
+          width: auto;   
+          padding: 10px 18px;  
+          margin: 10px 5px;  
+      }    
+   .container {   
+          padding: 30px;   
+          background-color:grey;  
+      } 
+      .slider{
+
+        width: 800px;
+        height: 400px;
+        background: url(file:///C:/Users/AYUSH%20SRIVASTAVA/Desktop/mini%20project%201/image/1.jpg);
+        margin: 100px auto;
+        animation: slide 20s infinite;
+        }
+        
+        @keyframes slide{
+            25%{
+            background: url(file:///C:/Users/AYUSH%20SRIVASTAVA/Desktop/mini%20project%201/image/1.jpg);
+            }
+            50%{
+             background: url(3.jpg);
+            }
+            75%{
+             background: url(4.jpg);
+            }
+ 
+            100%{
+            background: url(2.jpg);
+            }
+        }
